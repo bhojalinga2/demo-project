@@ -1,0 +1,30 @@
+.meal-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .meal-table td, .meal-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .meal-table tr:nth-child(even){background-color: #c5e4f1;}
+  
+  .meal-table tr:hover {background-color: rgb(146, 136, 136);}
+  
+  .meal-table th {
+    padding-top: 15px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #355e79;
+    color: white;
+  }
+  .btn button{
+      padding: 6px 20px;
+      background-color:rgb(87, 144, 168);
+      color: #c5e4f1;
+      border-radius: 6px;
+  }
+  .btn input{
+      padding: 6px 30px;
+  }
